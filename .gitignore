@@ -1,0 +1,6 @@
+*.*
+!*.c
+!*.h
+!Makfile
+!README.md
+!.gitignore
