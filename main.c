@@ -15,7 +15,7 @@ int isHelp(char *option) {
 
 char *readFile(char *fileName) {
     FILE *fptr = fopen(fileName, "r");
-    char *fileContent;
+    char *fileContent = malloc(sizeof(char));
     int c;
     int size = 0;
 
